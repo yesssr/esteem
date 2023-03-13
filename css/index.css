@@ -1,0 +1,254 @@
+:root {
+    --primary: #BF080A;
+    --secondary: #CCCCCC;
+    --background: #ffffff;
+    --textDark: #888888;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    background-color: var(--secondary);
+}
+
+.container {
+    max-width: 540px;
+    height: 100vh;
+    margin: auto;
+    background-color: var(--background);
+    position: relative;
+}
+
+.hero {
+    background: url('/K-eSTeeM/assets/img/main.png') no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    margin: 0 24px;
+    padding: 42px 0px 77px 0px;
+}
+
+.hero img {
+    width: 122px;
+    height: 42px;
+}
+
+.cardProfile {
+    margin: 0px 24px;
+    margin-top: -2.5rem;
+    padding: 1rem 0px;
+    background-color: var(--background);
+    border-radius: 0.5rem;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img {
+    display: inline;
+    margin: 0px 24px;
+}
+
+.detailProfile {
+    display: grid;
+    gap: 8px;
+}
+
+.cardProfile h1 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.cardProfile p {
+    margin: 0;
+    font-size: 12px; 
+    color: var(--textDark);
+}
+
+.info {
+    margin: 34px 24px;
+    padding: 1rem 0px;
+    background-color: var(--background);
+    justify-content: space-between;
+    display: flex;
+}
+
+.information {
+    justify-content: flex-start;
+    display: flex;
+}
+
+.info .icon {
+    margin-right: 8px;
+}
+
+.info .location .icon {
+    color: var(--primary);
+}
+
+.info .text p, h5 {
+    margin: 0;
+}
+
+.info .text p {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.info .text h5 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.presensi {
+    margin: 0px 64px;
+    margin-top: 38px;
+    padding: rem 0px;
+    background-color: var(--background);
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.presensi a {
+    padding: 25px;
+    padding-top: 30px;
+    background-color: var(--secondary);
+    border-radius: 8px;
+    color: var(--textDark);
+}
+
+.presensi a:active {
+    background-color: var(--primary);
+    color: var(--background);
+}
+
+.presensi h3 {
+    font-size: 14px;
+    margin-top: 2rem;
+}
+
+.history {
+    padding: 0px 24px;
+    margin-top: 38px;
+    padding-bottom: 2rem;
+    background-color: var(--background);
+}
+
+.history .title {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.history .title h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.history .title a {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+.cardHistory {
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    display: grid;
+    height: 115px;
+    background-color: var(--background);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.cardHistory .title {
+    margin: 0px 24px;
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.cardHistory .jadwal {
+    background-color: var(--background);
+    padding: 0;
+    margin: 0px 24px;
+    margin-bottom: 8px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.cardHistory p {
+    color: var(--textDark);
+    font-size: 10px;
+}
+
+.cardHistory .merah {
+    color: var(--primary);
+    margin: 0;
+    font-size: 14px;
+}
+
+.cardHistory .hitam {
+    color: black;
+    margin: 0;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.cardHistory .jadwal p {
+    margin-top: 8px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background:var(--background);
+    position: fixed;
+    width: 540px;
+    bottom: 0;
+    padding: 0.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu a {
+    color: var(--textDark);
+    text-decoration: none;
+}
+
+.itemMenu {
+    margin: 0px 40px;
+}
+
+.itemMenu p {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.itemMenu .active {
+    color: var(--primary);  
+    border-top: var(--primary);
+}
+
+
+
+/* responsive */
+@media (max-width: 540px) {
+    .menu {
+        width: 100%;
+    }
+  }

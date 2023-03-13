@@ -1,0 +1,78 @@
+:root {
+    --primary: #BF080A;
+    --secondary: #CCCCCC;
+    --background: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    background-color: var(--secondary);
+}
+
+.container {
+    max-width: 540px;
+    height: 100vh;
+    margin: auto;
+    background-color: var(--background);
+    position: relative;
+}
+
+.hero {
+    padding:3rem 0px;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.main {
+    padding-bottom: 3rem;
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    background-color: var(--background);
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 3rem;
+}
+
+.form {
+    display: grid;
+    row-gap: 24px;
+    margin: 0px 1.5rem;
+}
+
+.input {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid var(--secondary);
+    border-radius: 8px;
+    height: 3rem;
+}
+
+
+h5 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    background: var(--primary);
+    border-radius: 8px;
+    color: var(--background);
+}

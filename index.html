@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Presensi</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <div class="navbar">
+                <img src="./assets/img/logo2.png" alt="">
+            </div>
+        </div>
+        <div class="cardProfile">
+            <div class="img">
+                <img src="./assets/img/profile.svg" alt="">
+            </div>
+            <div class="detailProfile">
+                <h1>Raihan Juliandra Rahman</h1>
+                <p>XII SIJA</p>
+            </div>
+        </div>
+        <div class="info">
+            <div class="information location">
+                <div class="icon">
+                    <i data-feather="map-pin"></i>
+                </div>
+                <div class="text">
+                    <p>2 meter</p>
+                    <h5>Di dalam sekolah</h5>
+                </div>
+            </div>
+            <div class="information">
+                <div class="icon">
+                    <i data-feather="clock"></i>
+                </div>
+                <div class="text">
+                    <p>Jum'at</p>
+                    <h5>06:46 WIB</h5>
+                </div>
+            </div>
+        </div>
+        <div class="presensi">
+            <div class="masuk">
+                <a class="active" href="">
+                    <i data-feather="log-out"></i>
+                </a>
+                <h3>Presensi Masuk</h3>
+            </div>
+            <div class="keluar">
+                <a href="">
+                    <i data-feather="log-in"></i>
+                </a>
+                <h3>Presensi Pulang</h3>
+            </div>
+        </div>
+        <div class="history">
+            <div class="title">
+                <!-- <div> -->
+                    <h3>Histori Presensi</h3>
+                    <a href="">lihat semua</a>
+                <!-- </div> -->
+            </div>
+            <div class="cardHistory">
+                <div class="title">
+                    <p>27 Januari 2023</p>
+                </div>
+                <div class="jadwal">
+                    <div class="masuk">
+                        <h3 class="merah">Waktu Masuk</h3>
+                        <h3 class="hitam">07.02 WIB</h3>
+                        <p>datang tepat waktu</p>
+                    </div>
+                    <div class="sampai">
+                        <i data-feather="minus"></i>
+                    </div>
+                    <div class="pulang">
+                        <h3 class="merah">Waktu Pulang</h3>
+                        <i class="hitam" data-feather="minus"></i>
+                        <p>Hasil belum keluar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cardHistory">
+                <div class="title">
+                    <p>27 Januari 2023</p>
+                </div>
+                <div class="jadwal">
+                    <div class="masuk">
+                        <h3 class="merah">Waktu Masuk</h3>
+                        <h3 class="hitam">07.02 WIB</h3>
+                        <p>datang tepat waktu</p>
+                    </div>
+                    <div class="sampai">
+                        <i data-feather="minus"></i>
+                    </div>
+                    <div class="pulang">
+                        <h3 class="merah">Waktu Pulang</h3>
+                        <h3 class="hitam">15.45 WIB</h3>
+                        <p>pulang tepat waktu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="itemMenu">
+                <a href="./index.html" class="active">
+                    <i data-feather="bell"></i>
+                <p>Presensi</p>
+                </a>
+            </div>
+            <div class="itemMenu">
+                <a href="./rekap.html">
+                    <i data-feather="list"></i>
+                <p>Rekap</p>
+                </a>
+            </div>
+            <div class="itemMenu">
+                <a href="./profile.html">
+                    <i data-feather="user"></i>
+                <p>Profile</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        feather.replace()
+    </script>
+
+</body>
+</html>

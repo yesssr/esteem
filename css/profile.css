@@ -1,0 +1,128 @@
+:root {
+    --primary: #BF080A;
+    --secondary: #CCCCCC;
+    --background: #ffffff;
+    --textDark: #888888;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    background-color: var(--secondary);
+}
+
+.container {
+    max-width: 540px;
+    height: 100vh;
+    margin: auto;
+    background-color: var(--background);
+    position: relative;
+}
+
+.hero {
+    background: url('/K-eSTeeM/assets/img/main.png') no-repeat;
+    background-size: cover;
+    padding: 42px 0px 77px 0px;
+}
+
+.navbar {
+    margin: 0 24px;
+}
+
+.profile {
+    display: grid;
+    gap: 16px;
+    justify-content: center;
+    margin-top: -60px;
+    text-align: center;
+}
+
+.profile img {
+    margin: auto;
+}
+
+
+.profile h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.profile p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--secondary);
+}
+
+.settings {
+    margin: 0 24px;
+}
+
+.settings .list {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.list img {
+    width: 20px;
+    height: 20px;
+}
+
+.list h4 {
+    margin-left: 32px;
+}
+
+.button {
+    background-color: var(--primary);
+    color: var(--background);
+    padding: 0.5rem ;
+    margin: 0 24px;
+    margin-bottom: 48px ;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background:var(--background);
+    position: fixed;
+    width: 540px;
+    bottom: 0;
+    padding: 0.5rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menu a {
+    color: var(--textDark);
+    text-decoration: none;
+}
+
+.itemMenu {
+    margin: 0px 40px;
+}
+
+.itemMenu p {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.itemMenu .active {
+    color: var(--primary);  
+    border-top: var(--primary);
+}
+
+
+/* responsive */
+@media (max-width: 540px) {
+    .menu {
+        width: 100%;
+    }
+  }

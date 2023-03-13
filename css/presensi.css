@@ -1,0 +1,161 @@
+:root {
+    --primary: #BF080A;
+    --secondary: #CCCCCC;
+    --background: #ffffff;
+    --textDark: #888888;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    background-color: var(--secondary);
+}
+
+.container {
+    max-width: 540px;
+    height: 100vh;
+    margin: auto;
+    background-color: var(--background);
+    position: relative;
+    overflow: auto;
+}
+
+.title {
+    display: flex;
+    margin: 0px 24px;
+    padding: 2rem 0px;
+    align-items: center;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 16px;
+    margin-left: 24px;
+    font-weight: 700;
+}
+
+.info {
+    margin: 0px 24px;
+    padding: 1rem 0px;
+    background-color: var(--background);
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.information {
+    justify-content: flex-start;
+    display: flex;
+    margin-bottom: ;
+}
+
+.info .icon {
+    margin-right: 8px;
+}
+
+.info .location .icon {
+    color: var(--primary);
+}
+
+.info .text p, h5 {
+    margin: 0;
+}
+
+.info .text p {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.info .text h5 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.content {
+    color: white;
+    display: grid;
+    gap: 1.5rem;
+    margin: 0 24px;
+}
+
+.content .hadir {
+    padding: 1rem 0;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #BF080A 0%, #A60608 31.46%, #940507 67.32%, #7F0405 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content .hadir .img {
+
+}
+
+.content .hadir .text {
+
+}
+
+.content .hadir h1 {
+    color: var(--background);
+    font-size: 16px;
+}
+
+.content .hadir .absen {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--primary);
+    background-color: white;
+    border-radius: 4px;
+}
+
+.content .hadir h3 {
+    margin-left: 0.5rem;
+    font-size: 10px;
+}
+
+.content .card {
+    background-color: var(--background);
+    border-radius: 8px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content .card .vector {
+    padding: 25px 2rem;
+    background-color: var(--secondary);
+    color: var(--textDark);
+    border-radius: 8px 0 0 8px;
+}
+
+.content .card .text {
+    margin-left: 1.5rem;
+    color: black;
+}
+
+.content .card h3 {
+    color: var(--primary);
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.content .card p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.button {
+    background-color: var(--primary);
+    color: var(--background);
+    padding: 0.5rem ;
+    margin: 0 24px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 150px;
+}
